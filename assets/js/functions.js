@@ -14,6 +14,20 @@ function smoothScroll (duration) {
 	});
 }
 
+function workBelt() {
+
+	$('.thumb-unit').click(function() {
+		$('.work-belt').css('left', '-100%');
+	});
+
+	$('.work-return').click(function(){
+		$('.work-belt').css('left', '0%');
+	});
+}
+
+
 $(function() {
-  	smoothScroll(350);
+  	smoothScroll(300);
+  	workBelt();
 });
+
