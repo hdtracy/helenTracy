@@ -533,7 +533,7 @@ h3 {
       margin: 10px; } }
 .blurb {
   max-width: 620px;
-  padding: 0 15px;
+  padding: 0 15px 65px;
   margin: 50px auto;
   font-size: 20px;
   text-align: center;
@@ -553,11 +553,7 @@ h3 {
   -moz-transition: all 0.15s ease-out 0s;
   transition: all 0.15s ease-out 0s; }
 
-.thumb-wrap {
-  width: 50%;
-  float: left; }
-
-.work-wrap {
+.thumb-wrap, .work-wrap {
   width: 50%;
   float: left; }
 
@@ -652,9 +648,7 @@ h3 {
     margin-bottom: 20%; }
   .work-container .work-return {
     cursor: pointer;
-    opacity: 0.5;
-    margin-left: -100px;
-    padding-right: 40px; }
+    opacity: 0.5; }
     .work-container .work-return path {
       fill: rgba(0, 0, 0, 0.4); }
     .work-container .work-return:hover {

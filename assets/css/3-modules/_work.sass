@@ -10,11 +10,7 @@
 	left: 0%
 	+transition
 
-.thumb-wrap
-	width: 50%
-	float: left
-
-.work-wrap
+.thumb-wrap, .work-wrap
 	width: 50%
 	float: left
 
@@ -33,15 +29,15 @@
 		position: relative
 		padding-top: 20%
 		
+		background-image: url(/assets/img/work/proj-1/thumb.png)
+		background-position: center center
+		background-repeat: no-repeat
+		background-size: cover
 
 		@media screen and (max-width: 760px)
 			width: 50%
 			padding-top: 30%
 
-		background-image: url(/assets/img/work/proj-1/thumb.png)
-		background-position: center center
-		background-repeat: no-repeat
-		background-size: cover
 
 		.thumb-overlay
 			+position(absolute, 0% 0px null 0px)
@@ -93,8 +89,7 @@
 	.work-return
 		cursor: pointer
 		opacity: 0.5
-		margin-left: -100px
-		padding-right: 40px
+		
 
 		path
 			fill: rgba(0,0,0,0.4)
